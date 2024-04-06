@@ -1,0 +1,100 @@
+ <!-- 主体内容: 滑动查看 -->
+ <div class="main">
+    <!-- 用户信息 ，调用pannel公共属性-->
+    <div class="pannel user_msg">
+        <!-- 分为三个区域location、user、more -->
+        <div class="location">		
+            <i class="iconfont icon-location"></i>
+        </div>
+        <div class="user">
+            <!-- 分为两部分top、bottom -->
+            <div class="top">
+                <h5>林丽</h5>
+                <p>18500667882</p >
+            </div>
+            <div class="bottom">北京市  海淀区  中关村软件园   信息科技大厦1号
+                楼410#   </div>
+        </div>
+        <div class="more">
+            <i class="iconfont icon-more"></i>
+        </div>
+    </div>
+    <!-- 用户信息 -->
+</div>
+        <!-- 商品 -->
+        <div class="pannel goods">
+			<!-- 分为三个模块：图片，信息，数量 -->
+            <div class="pic">
+                <a href="#"><img src="./uploads/pic.png" alt=""></a>
+            </div>
+            <div class="info">
+			<!-- 	分成三部分 h5标题,p标签,<div>标签 -->
+                <h5>康尔贝 非接触式红外体温仪 
+                    领券立减30元 婴儿级材质 测温…</h5>
+                <p><span>粉色</span>   <span>红外体温计</span></p>
+                <div class="price">
+                    <span class="red">¥ <i>266</i> </span>
+                    <span>¥299</span>
+                </div>
+            </div>
+            <div class="count">
+                <i class="iconfont icon-x"></i>
+                <span>1</span>
+            </div>
+        </div>
+        <!-- 商品 -->
+
+    <!-- 其他信息 -->
+        <!-- div.pannel   rest   -->
+        <!-- header  nav  section footer -->
+        <section class="pannel rest">
+			<!-- 分为三个div模块 -->
+            <div>
+                <h5>配送方式</h5>
+                <p>顺丰快递</p>
+            </div>
+            <div>
+                <h5>买家备注</h5>
+                <p>希望可以尽快发货，谢谢~</p>
+            </div>
+            <div>
+                <h5>支付方式</h5>
+                <p>支付宝</p>
+				<div class="more">
+				    <i class="iconfont icon-more"></i>
+				</div>
+            </div>
+            
+        </section>
+        <!-- 其他信息 -->
+		
+		<!-- 商品其他信息 -->
+		<section class="pannel goodsrest">
+			<div>
+				<h5>商品总价</h5>
+				<span>¥ <i>299.00</i></span>
+			</div>
+			<div>
+				<h5>运费</h5>
+				<span>¥ <i>0.00</i></span>
+			</div>
+			<div>
+				<h5>折扣</h5>
+				<span class="red">- ¥ <i>30.00</i></span>
+			</div>
+		</section>
+		<!-- 商品其他信息 -->
+    </div>
+    <!-- 底部支付: 固定定位 -->
+    <div class="pay">
+		<!-- 布局：左边 合计:xxx    右边:去支付 -->
+        <div class="left">
+			<!-- 将价格放置<i>标签可利用JS改变订单价格 -->
+            合计: <span class="red">￥<i>266.00</i></span>
+        </div>
+        <div class="right">
+			<!-- 要跳转用a标签 -->
+            <a href="#">去支付</a>
+        </div>
+    </div>
+    <!-- 底部支付: 固定定位 -->
